@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { FaKaggle } from "react-icons/fa";
 import ReactMarkdown from "react-markdown";
+import { Analytics } from "@vercel/analytics/react"
 
 /* ---------- SkillAccordion (controlled) ---------- */
 function SkillAccordion({ category, skills, isOpen, onToggle, index }) {
@@ -996,6 +997,7 @@ export default function App() {
       <footer className="w-full bg-[#DED8CD] text-[#4A4A45] py-4 mt-16 text-center text-sm md:text-base">
         © {new Date().getFullYear()} Hisham Mislhy. All rights reserved.
       </footer>
+      <Analytics />
     </div>
   );
 }
