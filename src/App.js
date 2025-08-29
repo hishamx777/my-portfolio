@@ -415,7 +415,6 @@ export default function App() {
         </div>
       </motion.section>
 
-
       {/* Skills */}
       <motion.section
         id="skills"
@@ -484,61 +483,6 @@ export default function App() {
             </div>
           </motion.div>
 
-          {/* بطاقة DevOps & MLOps Tools */}
-          <motion.div 
-            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
-            whileHover={{ y: -5 }}
-          >
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-red-100 rounded-lg mr-4">
-                <FaCloud className="h-6 w-6 text-red-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">DevOps & MLOps Tools</h3>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">GitHub</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Git</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">MLflow</span>
-            </div>
-          </motion.div>
-
-          {/* بطاقة Deep Learning */}
-          <motion.div 
-            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
-            whileHover={{ y: -5 }}
-          >
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-indigo-100 rounded-lg mr-4">
-                <FaBrain className="h-6 w-6 text-indigo-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">Deep Learning</h3>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Image Classification</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">ANN</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Autoencoders</span>
-            </div>
-          </motion.div>
-
-          {/* بطاقة NLP */}
-          <motion.div 
-            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
-            whileHover={{ y: -5 }}
-          >
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-pink-100 rounded-lg mr-4">
-                <FaLanguage className="h-6 w-6 text-pink-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">NLP</h3>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">RNN</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">LSTM</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Classification</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Transformers</span>
-            </div>
-          </motion.div>
-
           {/* بطاقة Databases */}
           <motion.div 
             className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
@@ -577,24 +521,6 @@ export default function App() {
             </div>
           </motion.div>
 
-          {/* بطاقة AI & Machine Learning Frameworks */}
-          <motion.div 
-            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
-            whileHover={{ y: -5 }}
-          >
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-orange-100 rounded-lg mr-4">
-                <FaRobot className="h-6 w-6 text-orange-600" />
-              </div>
-              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">AI & ML Frameworks</h3>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">TensorFlow</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Keras</span>
-              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">PyTorch</span>
-            </div>
-          </motion.div>
-
           {/* بطاقة Machine Learning */}
           <motion.div 
             className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
@@ -618,6 +544,61 @@ export default function App() {
             </div>
           </motion.div>
 
+          {/* بطاقة Deep Learning */}
+          <motion.div 
+            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
+            whileHover={{ y: -5 }}
+          >
+            <div className="flex items-center mb-4">
+              <div className="p-3 bg-indigo-100 rounded-lg mr-4">
+                <FaBrain className="h-6 w-6 text-indigo-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">Deep Learning</h3>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Image Classification</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">ANN</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Autoencoders</span>
+            </div>
+          </motion.div>
+
+          {/* بطاقة AI & Machine Learning Frameworks */}
+          <motion.div 
+            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
+            whileHover={{ y: -5 }}
+          >
+            <div className="flex items-center mb-4">
+              <div className="p-3 bg-orange-100 rounded-lg mr-4">
+                <FaRobot className="h-6 w-6 text-orange-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">AI & ML Frameworks</h3>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">TensorFlow</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Keras</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">PyTorch</span>
+            </div>
+          </motion.div>
+
+          {/* بطاقة NLP */}
+          <motion.div 
+            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
+            whileHover={{ y: -5 }}
+          >
+            <div className="flex items-center mb-4">
+              <div className="p-3 bg-pink-100 rounded-lg mr-4">
+                <FaLanguage className="h-6 w-6 text-pink-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">NLP</h3>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">RNN</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">LSTM</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Classification</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Transformers</span>
+            </div>
+          </motion.div>
+
           {/* بطاقة Computer Vision */}
           <motion.div 
             className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
@@ -632,6 +613,24 @@ export default function App() {
             <div className="flex flex-wrap gap-2">
               <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Object Detection</span>
               <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Image Segmentation</span>
+            </div>
+          </motion.div>
+
+          {/* بطاقة DevOps & MLOps Tools */}
+          <motion.div 
+            className="bg-white rounded-xl shadow-lg p-6 border border-[#DED8CD] hover:shadow-xl transition-all duration-300"
+            whileHover={{ y: -5 }}
+          >
+            <div className="flex items-center mb-4">
+              <div className="p-3 bg-red-100 rounded-lg mr-4">
+                <FaCloud className="h-6 w-6 text-red-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-left text-[#4A4A45]">DevOps & MLOps Tools</h3>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">GitHub</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">Git</span>
+              <span className="px-3 py-1 bg-[#EFECE6] text-[#4A4A45] rounded-full text-sm">MLflow</span>
             </div>
           </motion.div>
 
